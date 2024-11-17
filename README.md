@@ -99,4 +99,5 @@ kubectl -n kubernetes-dashboard delete clusterrolebinding admin-user
 In order to find out more about how to grant/deny permissions in Kubernetes read the official [authentication](https://kubernetes.io/docs/reference/access-authn-authz/authentication/) & [authorization](https://kubernetes.io/docs/reference/access-authn-authz/authorization/) documentation.
 
 ----
-_Copyright 2020 [The Kubernetes Dashboard Authors](https://github.com/kubernetes/dashboard/graphs/contributors)_
+Open the URL
+http://localhost:8001/api/v1/namespaces/kubernetes-dashboard/services/https:kubernetes-dashboard:/proxy/#/login
